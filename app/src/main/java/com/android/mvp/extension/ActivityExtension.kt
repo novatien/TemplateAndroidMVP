@@ -126,11 +126,3 @@ fun Activity.observerKeyboardShow(
         }
     })
 }
-
-fun Activity.transitionAnimLeft() {
-    this.overridePendingTransition(R.anim.left_in, R.anim.left_out)
-}
-
-fun Activity.transitionAnimRight() {
-    this.overridePendingTransition(R.anim.right_in, R.anim.right_out)
-}
